@@ -1,0 +1,17 @@
+1. security ---> approval
+2. penampakan ---> report
+3. beginning balance ---> ledger
+4. format angka
+5. project pindah ke detail dari header
+6. id line menjadi id_header.no_urut
+7. check balance
+8. menu procurement
+
+capture:
+1. reports
+2. entry voucher
+3. customer
+4. menu
+
+flw up:
+1. note pak is soal modem
