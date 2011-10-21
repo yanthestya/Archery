@@ -1,2 +1,5 @@
 This is a "framework" developed with a simple goal in mind: to reduce amount of recoding when creating CRUD interface.
 
+Hints:
+01. Directory templates_c must exist and must be writeable by web server's user
+02. Edit config.inc.php to adjust the mysql connection parameter
