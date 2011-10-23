@@ -53,7 +53,7 @@ function populateMenu($parent=0, $level="", $menu_name="menu")
 		die("rsGrp ".$db->ErrorMsg());
 	}
 
-	$strSQL = "select id, description, menu_override, menu_act from menus where parent = $parent order by menu_order";
+	$strSQL = "select id, description, menu_override, menu_act from menus where parent = $parent order by menu_order+0";
 	$result = $db->Execute($strSQL);
 	if($result == false) die("can't get menu, ".$db->ErrorMsg());
 	while( !$result->EOF )

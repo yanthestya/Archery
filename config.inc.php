@@ -18,9 +18,9 @@
 	//$conf_global_user_icon = "user.gif";
 	
 	// database configurations
-	$db_user = "lpjk";
-	$db_password = "lpjkuser";
-	$db_name = "lpjk";
+	$db_user = "web";
+	$db_password = "webuser";
+	$db_name = "web";
 	$db_host = "localhost";
 	$db_type = "mysql";
 ?>
